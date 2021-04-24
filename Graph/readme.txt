@@ -1,1 +1,1 @@
-The path of the folder Poly Calculator should be D:\Graph
+The path of the folder Graph should be D:\Graph
