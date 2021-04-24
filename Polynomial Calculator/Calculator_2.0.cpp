@@ -1,6 +1,8 @@
 ﻿#include <iostream>
 #include<fstream>
 using namespace std;
+#define INPUT_FILE_PATH "D:\\Polynomial Calculator\\data.txt"
+#define OUTPUT_FILE_PATH "D:\\Polynomial Calculator\\suffix.txt"
 
 int NumVariate = 0;
 struct Variate {
@@ -187,7 +189,7 @@ void Compute(char oper, STACK<float>& S)
 void InfixToSuffix()
 {
 	ifstream in;
-	in.open("D:\\calculator\\data.txt");
+	in.open(INPUT_FILE_PATH);
 	char c, e;
 	float n;
 	STACK<char> operS;
@@ -431,9 +433,9 @@ void PrintSuffix()
 void WriteSuffix()
 {
 	ifstream in;
-	in.open("D:\\calculator\\data.txt");
+	in.open(INPUT_FILE_PATH);
 	ofstream out;
-	out.open("D:\\calculator\\suffix.txt", ios::app);
+	out.open(OUTPUT_FILE_PATH, ios::app);
 	char c;
 
 	out << "Inffix:" << endl;
