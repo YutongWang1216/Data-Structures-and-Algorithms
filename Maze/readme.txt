@@ -1,1 +1,1 @@
-The path of the folder Poly Calculator should be D:\Maze
+The path of the folder Maze should be D:\Maze
