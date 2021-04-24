@@ -1,1 +1,1 @@
-The path of the folder Poly Calculator should be D:\Polynomial Calculator
+The path of the folder Polynomial Calculator should be D:\Polynomial Calculator
